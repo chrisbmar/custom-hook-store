@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import configureStore from "./hooksStore/products-store";
-import configureCounterStore from "./hooks-store/counter-store";
+import configureCounterStore from "./hooksStore/counter-store";
 
 configureStore();
 configureCounterStore();
